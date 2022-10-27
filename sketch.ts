@@ -5,6 +5,8 @@
 // S key ... Drop fast
 
 class Block {
+  x: number = 0;
+  y: number = 0;
     constructor(x, y) {
       this.x = x;
       this.y = y;
@@ -16,8 +18,12 @@ class Block {
       pop();
     }
   }
-  
+
   class Mino {
+    x: number = 0;
+    y: number = 0;
+    rot: number = 0;
+    shape: number = 0;
     constructor(x, y, rot, shape) {
       this.x = x;
       this.y = y;
