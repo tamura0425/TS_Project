@@ -37,3 +37,4 @@ console.log(increment(999));
 console.log('Hello TypeScript');
 console.log('Hello TypeScript');
 console.log('Hello TypeScript');
+console.log('Hello TypeScript');
