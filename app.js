@@ -38,3 +38,8 @@ console.log('Hello TypeScript');
 console.log('Hello TypeScript');
 console.log('Hello TypeScript');
 console.log('Hello TypeScript');
+console.log('Hello TypeScript');
+var num1 = 10;
+var num2 = 10;
+var ans = num1 + num2;
+console.log(ans);
